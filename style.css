@@ -1,0 +1,63 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary
+{
+    color:#FD6E0A;
+}
+.btn-primary
+{
+    background-color:#FD6E0A;
+    border-radius: 5px;
+    border:0;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 35px;
+      
+}
+.header
+{
+    background-color: #FFF8F3;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+.Website-title
+{
+    font-size: 45px;
+    font-weight: 800;
+}
+/*To ensure that both the nav element and the nav ul element 
+have the same flex layout and alignment properties. */
+nav ul
+{
+    display: flex;
+    align-items: center;
+}
+nav ul li
+{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a 
+{
+    text-decoration: none;
+    color:#474747;
+}
+.banner
+{
+    display: flex;
+    padding: 30px 30px 30px 150px;
+    align-items: center;
+}
+.banner img
+{
+    width: 500px;
+    
+}

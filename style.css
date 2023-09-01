@@ -20,6 +20,9 @@ body
 .header
 {
     background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right; /*y axis first  */
 }
 nav
 {
@@ -53,11 +56,48 @@ nav a
 .banner
 {
     display: flex;
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     align-items: center;
+    justify-content: space-between;
 }
 .banner img
 {
     width: 500px;
     
+}
+.banner-content
+{
+    max-width: 500px;
+}
+.banner-gritty
+{
+    font-size: 45px;
+}
+.banner-title
+{
+    font-size: 70px;
+    font-weight: 700;
+}
+main
+{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.about
+{
+    background: #FFF8F3;
+    padding: 130px;
+    border-radius: 10px;
+    margin: 130px 0;
+
+}
+.about-info-container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-inf
+{
+    text-align: center;
 }

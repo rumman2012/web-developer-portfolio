@@ -143,3 +143,17 @@ main
     color: #474747;
     font-weight: 700;
 }
+.resume-container
+{
+    display: flex;
+    gap:24px;
+}
+.resume-item-info, .resume-item-description
+{
+    color:#757575;
+}
+.downlodad-cv
+{
+    text-align: center;
+    margin-top: 50px;
+}

@@ -87,10 +87,15 @@ main
 .about
 {
     background: #FFF8F3;
-    padding: 130px;
+    padding: 50px;
     border-radius: 10px;
     margin: 130px 0;
 
+}
+.section-title
+{
+    text-align: center;
+    margin-bottom: 0;
 }
 .about-info-container
 {
@@ -100,4 +105,41 @@ main
 .about-inf
 {
     text-align: center;
+    
+}
+.info-title
+{
+    margin-bottom: 0;
+}
+.info-description
+{
+    margin-top: 0;
+}
+#what-I-do
+{
+    padding: 30px 150px;
+    margin-top: 0;
+}
+.what-I-Do-Section
+{
+    padding: 50px;
+    background: #FFF8F3;
+}
+.skills-container
+{
+    
+    display: flex;
+    gap: 24px;
+}
+.skills
+{
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.6);
+}
+.resume-column-title
+{
+    color: #474747;
+    font-weight: 700;
 }
